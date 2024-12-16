@@ -15,7 +15,7 @@ Add the `GuzzleProfilerApplicationPlugin` to your
 namespace Pyz\Zed\Console;
 
 // ...
-use Inviqa\Shared\SprykerDebug\Plugin\Application\GuzzleProfilerApplicationPlugin;
+use Teufelaudio\Shared\SprykerDebug\Plugin\Application\GuzzleProfilerApplicationPlugin;
 
 class ShopApplicationDependencyProvider extends SprykerShopApplicationDependencyProvider
 {

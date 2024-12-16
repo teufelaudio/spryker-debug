@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\Zed\SprykerDebug\Communication\Model\Rabbit;
+namespace Teufelaudio\Zed\SprykerDebug\Communication\Model\Rabbit;
 
 class Message
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Inviqa\SprykerDebug\Tests;
+namespace Teufelaudio\SprykerDebug\Tests;
 
 use GuzzleHttp\Client;
-use Inviqa\SprykerDebug\Tests\Support\ApplicationBuilder;
-use Inviqa\SprykerDebug\Tests\Support\Workspace\Workspace;
+use Teufelaudio\SprykerDebug\Tests\Support\ApplicationBuilder;
+use Teufelaudio\SprykerDebug\Tests\Support\Workspace\Workspace;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use Psr\Container\ContainerInterface;
 use Pyz\Zed\Application\Communication\ApplicationCommunicationFactory;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\Zed\SprykerDebug\Communication\Model\Propel;
+namespace Teufelaudio\Zed\SprykerDebug\Communication\Model\Propel;
 
 final class FieldParser
 {

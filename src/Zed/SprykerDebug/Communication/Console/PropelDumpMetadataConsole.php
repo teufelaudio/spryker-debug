@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\Zed\SprykerDebug\Communication\Console;
+namespace Teufelaudio\Zed\SprykerDebug\Communication\Console;
 
 use Propel\Runtime\Map\ColumnMap;
 use Propel\Runtime\Map\RelationMap;
@@ -13,7 +13,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 
 /**
- * @method \Inviqa\Zed\SprykerDebug\Communication\SprykerDebugCommunicationFactory getFactory()
+ * @method \Teufelaudio\Zed\SprykerDebug\Communication\SprykerDebugCommunicationFactory getFactory()
  */
 class PropelDumpMetadataConsole extends Console
 {

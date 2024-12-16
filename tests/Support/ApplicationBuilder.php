@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\SprykerDebug\Tests\Support;
+namespace Teufelaudio\SprykerDebug\Tests\Support;
 
 use RuntimeException;
 use Spryker\Service\Container\ContainerInterface;

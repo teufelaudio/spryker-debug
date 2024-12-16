@@ -10,7 +10,7 @@ $config[KernelConstants::PROJECT_NAMESPACES] = [
     'Pyz',
 ];
 $config[KernelConstants::CORE_NAMESPACES] = [
-    'Inviqa',
+    'Teufelaudio',
     'SprykerShop',
     'SprykerMiddleware',
     'SprykerEco',

@@ -1,6 +1,6 @@
 {
-    "name": "inviqa/spryker-debug",
-    "description": "Inviqa Spryker Debug Module",
+    "name": "teufelaudio/spryker-debug",
+    "description": "Spryker Debug Module",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,19 +11,19 @@
     ],
     "autoload": {
       "psr-4": {
-        "Inviqa\\": "src/"
+        "Teufelaudio\\": "src/"
       }
     },
     "autoload-dev": {
       "psr-4": {
         "Orm\\": "tests/App/src/Orm/",
         "Pyz\\": "tests/App/src/Pyz/",
-        "Inviqa\\SprykerDebug\\Tests\\": "tests/",
+        "Teufelaudio\\SprykerDebug\\Tests\\": "tests/",
         "Generated\\Shared\\Transfer\\": "tests/App/src/Generated/Shared/Transfer/"
       }
     },
     "require": {
-        "php": "^7.4 | ^8.0",
+        "php": "^8.0",
         "spryker-shop/shop-application": "^1.0",
         "spryker/propel": "^3.0",
         "spryker/console": "^4.0",
