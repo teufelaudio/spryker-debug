@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\Zed\SprykerDebug\Communication\Console;
+namespace Teufelaudio\Zed\SprykerDebug\Communication\Console;
 
 use RuntimeException;
 use Spryker\Zed\Kernel\Communication\Console\Console;

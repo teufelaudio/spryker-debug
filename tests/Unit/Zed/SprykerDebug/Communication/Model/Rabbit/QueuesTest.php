@@ -1,9 +1,9 @@
 <?php
 
-namespace Inviqa\SprykerDebug\Tests\Unit\Zed\SprykerDebug\Communication\Model\Rabbit;
+namespace Teufelaudio\SprykerDebug\Tests\Unit\Zed\SprykerDebug\Communication\Model\Rabbit;
 
-use Inviqa\Zed\SprykerDebug\Communication\Model\Rabbit\Queue;
-use Inviqa\Zed\SprykerDebug\Communication\Model\Rabbit\Queues;
+use Teufelaudio\Zed\SprykerDebug\Communication\Model\Rabbit\Queue;
+use Teufelaudio\Zed\SprykerDebug\Communication\Model\Rabbit\Queues;
 use PHPUnit\Framework\TestCase;
 
 class QueuesTest extends TestCase

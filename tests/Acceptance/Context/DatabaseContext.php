@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\SprykerDebug\Tests\Acceptance\Context;
+namespace Teufelaudio\SprykerDebug\Tests\Acceptance\Context;
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Hook\Scope\ScenarioScope;

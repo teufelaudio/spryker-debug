@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\Zed\SprykerDebug\Model\Propel;
+namespace Teufelaudio\Zed\SprykerDebug\Model\Propel;
 
 class PropelConfig
 {

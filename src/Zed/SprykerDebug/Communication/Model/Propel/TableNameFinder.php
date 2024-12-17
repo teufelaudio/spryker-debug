@@ -1,18 +1,18 @@
 <?php
 
-namespace Inviqa\Zed\SprykerDebug\Communication\Model\Propel;
+namespace Teufelaudio\Zed\SprykerDebug\Communication\Model\Propel;
 
 use DOMDocument;
 use DOMXPath;
-use Inviqa\Zed\SprykerDebug\Model\Propel\PropelConfig;
 use Propel\Generator\Model\PhpNameGenerator;
 use SplFileInfo;
 use Symfony\Component\Finder\Finder;
+use Teufelaudio\Zed\SprykerDebug\Model\Propel\PropelConfig;
 
 class TableNameFinder
 {
     /**
-     * @var \Inviqa\Zed\SprykerDebug\Model\Propel\PropelConfig
+     * @var \Teufelaudio\Zed\SprykerDebug\Model\Propel\PropelConfig
      */
     private $config;
 

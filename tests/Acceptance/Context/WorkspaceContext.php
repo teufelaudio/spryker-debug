@@ -1,10 +1,10 @@
 <?php
 
-namespace Inviqa\SprykerDebug\Tests\Acceptance\Context;
+namespace Teufelaudio\SprykerDebug\Tests\Acceptance\Context;
 
 use Behat\Behat\Context\Context;
 use Behat\Gherkin\Node\PyStringNode;
-use Inviqa\SprykerDebug\Tests\Support\Workspace\Workspace;
+use Teufelaudio\SprykerDebug\Tests\Support\Workspace\Workspace;
 
 class WorkspaceContext implements Context
 {

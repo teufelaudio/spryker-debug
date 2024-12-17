@@ -3,18 +3,18 @@ default:
     zed:
 
       autowire: true
-      services: Inviqa\SprykerDebug\Tests\TestContainer
+      services: Teufelaudio\SprykerDebug\Tests\TestContainer
 
       contexts:
-        - Inviqa\SprykerDebug\Tests\Acceptance\Context\DatabaseContext
-        - Inviqa\SprykerDebug\Tests\Acceptance\Context\WorkspaceContext
-        - Inviqa\SprykerDebug\Tests\Acceptance\Context\ConsoleContext
-        - Inviqa\SprykerDebug\Tests\Acceptance\Context\ConfigContext
-        - Inviqa\SprykerDebug\Tests\Acceptance\Context\QueueContext
-        - Inviqa\SprykerDebug\Tests\Acceptance\Context\TwigContext
-        - Inviqa\SprykerDebug\Tests\Acceptance\Context\YvesHttpContext
-        - Inviqa\SprykerDebug\Tests\Acceptance\Context\CacheContext
-        - Inviqa\SprykerDebug\Tests\Acceptance\Context\PropelContext
+        - Teufelaudio\SprykerDebug\Tests\Acceptance\Context\DatabaseContext
+        - Teufelaudio\SprykerDebug\Tests\Acceptance\Context\WorkspaceContext
+        - Teufelaudio\SprykerDebug\Tests\Acceptance\Context\ConsoleContext
+        - Teufelaudio\SprykerDebug\Tests\Acceptance\Context\ConfigContext
+        - Teufelaudio\SprykerDebug\Tests\Acceptance\Context\QueueContext
+        - Teufelaudio\SprykerDebug\Tests\Acceptance\Context\TwigContext
+        - Teufelaudio\SprykerDebug\Tests\Acceptance\Context\YvesHttpContext
+        - Teufelaudio\SprykerDebug\Tests\Acceptance\Context\CacheContext
+        - Teufelaudio\SprykerDebug\Tests\Acceptance\Context\PropelContext
 
   extensions:
     Roave\BehatPsrContainer\PsrContainerExtension:

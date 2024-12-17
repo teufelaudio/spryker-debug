@@ -15,7 +15,7 @@ Add the `DatabaseShellConsole` to your `ConsoleDependencyProvider`:
 namespace Pyz\Zed\Console;
 
 // ...
-use Inviqa\Zed\SprykerDebug\Communication\Console\DatabaseShellConsole;
+use Teufelaudio\Zed\SprykerDebug\Communication\Console\DatabaseShellConsole;
 
 class ConsoleDependencyProvider extends SprykerConsoleDependencyProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\Zed\SprykerDebug\Communication\Model\Rabbit;
+namespace Teufelaudio\Zed\SprykerDebug\Communication\Model\Rabbit;
 
 use GuzzleHttp\Client;
 use RuntimeException;
@@ -17,9 +17,6 @@ final class RabbitClient
         $this->client = $client;
     }
 
-    /**
-     * @return \Inviqa\Zed\SprykerDebug\Communication\Model\Rabbit\Queues<\Inviqa\Zed\SprykerDebug\Communication\Model\Rabbit\Queue>
-     */
     public function queues(): Queues
     {
         return new Queues(...array_map(function (array $data) {

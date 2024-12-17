@@ -1,19 +1,19 @@
 <?php
 
-namespace Inviqa\Zed\SprykerDebug\Communication;
+namespace Teufelaudio\Zed\SprykerDebug\Communication;
 
 use GuzzleHttp\Client;
-use Inviqa\Zed\SprykerDebug\Communication\Model\Propel\TableNameFinder;
-use Inviqa\Zed\SprykerDebug\Communication\Model\Propel\TablesFactory;
-use Inviqa\Zed\SprykerDebug\Communication\Model\Rabbit\RabbitClient;
-use Inviqa\Zed\SprykerDebug\Model\Propel\PropelConfig;
 use Propel\Runtime\Propel;
 use Spryker\Shared\Config\Config;
 use Spryker\Shared\RabbitMq\RabbitMqEnv;
 use Spryker\Zed\Kernel\Communication\AbstractCommunicationFactory;
+use Teufelaudio\Zed\SprykerDebug\Communication\Model\Propel\TableNameFinder;
+use Teufelaudio\Zed\SprykerDebug\Communication\Model\Propel\TablesFactory;
+use Teufelaudio\Zed\SprykerDebug\Communication\Model\Rabbit\RabbitClient;
+use Teufelaudio\Zed\SprykerDebug\Model\Propel\PropelConfig;
 
 /**
- * @method \Inviqa\Zed\SprykerDebug\SprykerDebugConfig getConfig()
+ * @method \Teufelaudio\Zed\SprykerDebug\SprykerDebugConfig getConfig()
  */
 class SprykerDebugCommunicationFactory extends AbstractCommunicationFactory
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\Shared\SprykerDebug\Plugin\Guzzle;
+namespace Teufelaudio\Shared\SprykerDebug\Plugin\Guzzle;
 
 use Closure;
 use Psr\Http\Message\RequestInterface;

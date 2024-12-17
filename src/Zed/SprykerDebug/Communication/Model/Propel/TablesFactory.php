@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\Zed\SprykerDebug\Communication\Model\Propel;
+namespace Teufelaudio\Zed\SprykerDebug\Communication\Model\Propel;
 
 use Propel\Runtime\Map\DatabaseMap;
 use Propel\Runtime\Map\Exception\TableNotFoundException;
@@ -13,7 +13,7 @@ class TablesFactory
     private $map;
 
     /**
-     * @var \Inviqa\Zed\SprykerDebug\Communication\Model\Propel\TableNameFinder
+     * @var \Teufelaudio\Zed\SprykerDebug\Communication\Model\Propel\TableNameFinder
      */
     private $finder;
 

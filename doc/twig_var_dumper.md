@@ -18,7 +18,7 @@ Add the `TwigVarDumpServiceProvider` to your `ShopApplicationDependencyProvider`
 namespace Pyz\Yves\ShopApplication;
 
 // ...
-use Inviqa\Shared\SprykerDebug\Plugin\Provider\TwigVarDumpServiceProvider;
+use Teufelaudio\Shared\SprykerDebug\Plugin\Provider\TwigVarDumpServiceProvider;
 
 class ShopApplicationDependencyProvider extends SprykerShopApplicationDependencyProvider
 {
@@ -40,7 +40,7 @@ Add the `TwigVarDumpServiceProvider` to your `ApplicationDependencyProvider`:
 <?php
 
 // ...
-use Inviqa\Shared\SprykerDebug\Plugin\Provider\TwigVarDumpServiceProvider;
+use Teufelaudio\Shared\SprykerDebug\Plugin\Provider\TwigVarDumpServiceProvider;
 
 class ApplicationDependencyProvider extends SprykerApplicationDependencyProvider
 {

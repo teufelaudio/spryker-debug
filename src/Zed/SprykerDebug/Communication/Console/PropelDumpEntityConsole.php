@@ -1,10 +1,7 @@
 <?php
 
-namespace Inviqa\Zed\SprykerDebug\Communication\Console;
+namespace Teufelaudio\Zed\SprykerDebug\Communication\Console;
 
-use Inviqa\Zed\SprykerDebug\Communication\Model\Cast;
-use Inviqa\Zed\SprykerDebug\Communication\Model\Propel\CriteriaParser;
-use Inviqa\Zed\SprykerDebug\Communication\Model\Propel\FieldParser;
 use Propel\Runtime\ActiveQuery\ModelCriteria;
 use Propel\Runtime\ActiveRecord\ActiveRecordInterface;
 use Propel\Runtime\Collection\Collection;
@@ -17,9 +14,12 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use Teufelaudio\Zed\SprykerDebug\Communication\Model\Cast;
+use Teufelaudio\Zed\SprykerDebug\Communication\Model\Propel\CriteriaParser;
+use Teufelaudio\Zed\SprykerDebug\Communication\Model\Propel\FieldParser;
 
 /**
- * @method \Inviqa\Zed\SprykerDebug\Communication\SprykerDebugCommunicationFactory getFactory()
+ * @method \Teufelaudio\Zed\SprykerDebug\Communication\SprykerDebugCommunicationFactory getFactory()
  */
 class PropelDumpEntityConsole extends Console
 {
@@ -34,12 +34,12 @@ class PropelDumpEntityConsole extends Console
     private const OPT_FIELDS = 'fields';
 
     /**
-     * @var \Inviqa\Zed\SprykerDebug\Communication\Model\Propel\CriteriaParser
+     * @var \Teufelaudio\Zed\SprykerDebug\Communication\Model\Propel\CriteriaParser
      */
     private $criteriaParser;
 
     /**
-     * @var \Inviqa\Zed\SprykerDebug\Communication\Model\Propel\FieldParser
+     * @var \Teufelaudio\Zed\SprykerDebug\Communication\Model\Propel\FieldParser
      */
     private $fieldParser;
 

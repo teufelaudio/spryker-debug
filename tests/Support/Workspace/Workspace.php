@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\SprykerDebug\Tests\Support\Workspace;
+namespace Teufelaudio\SprykerDebug\Tests\Support\Workspace;
 
 use RuntimeException;
 use Symfony\Component\Filesystem\Filesystem;

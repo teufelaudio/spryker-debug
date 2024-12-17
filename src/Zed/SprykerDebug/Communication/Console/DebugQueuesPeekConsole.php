@@ -1,17 +1,17 @@
 <?php
 
-namespace Inviqa\Zed\SprykerDebug\Communication\Console;
+namespace Teufelaudio\Zed\SprykerDebug\Communication\Console;
 
-use Inviqa\Zed\SprykerDebug\Communication\Model\Cast;
 use RuntimeException;
 use Spryker\Zed\Kernel\Communication\Console\Console;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use Teufelaudio\Zed\SprykerDebug\Communication\Model\Cast;
 
 /**
- * @method \Inviqa\Zed\SprykerDebug\Communication\SprykerDebugCommunicationFactory getFactory()
+ * @method \Teufelaudio\Zed\SprykerDebug\Communication\SprykerDebugCommunicationFactory getFactory()
  */
 class DebugQueuesPeekConsole extends Console
 {

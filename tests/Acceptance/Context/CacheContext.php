@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\SprykerDebug\Tests\Acceptance\Context;
+namespace Teufelaudio\SprykerDebug\Tests\Acceptance\Context;
 
 use Behat\Behat\Context\Context;
 use Symfony\Component\Filesystem\Filesystem;
@@ -13,6 +13,6 @@ class CacheContext implements Context
     public function clearCache()
     {
         $filesystem = new Filesystem();
-        $filesystem->remove(__DIR__ . '/../../App/data/cache');
+        $filesystem->remove(__DIR__ . '/../../App/data/cache/codeBucket');
     }
 }

@@ -2,14 +2,14 @@
 
 namespace Pyz\Zed\Console;
 
-use Inviqa\Zed\SprykerDebug\Communication\Console\DebugConfigConsole;
-use Inviqa\Zed\SprykerDebug\Communication\Console\DatabaseShellConsole;
-use Inviqa\Zed\SprykerDebug\Communication\Console\DebugQueuesConsole;
-use Inviqa\Zed\SprykerDebug\Communication\Console\DebugQueuesPeekConsole;
-use Inviqa\Zed\SprykerDebug\Communication\Console\PropelDumpEntityConsole;
-use Inviqa\Zed\SprykerDebug\Communication\Console\PropelDumpMetadataConsole;
-use Inviqa\Zed\SprykerDebug\Communication\Console\RedisShellConsole;
-use Inviqa\Zed\SprykerDebug\Communication\Console\DebugRoutesConsole;
+use Teufelaudio\Zed\SprykerDebug\Communication\Console\DebugConfigConsole;
+use Teufelaudio\Zed\SprykerDebug\Communication\Console\DatabaseShellConsole;
+use Teufelaudio\Zed\SprykerDebug\Communication\Console\DebugQueuesConsole;
+use Teufelaudio\Zed\SprykerDebug\Communication\Console\DebugQueuesPeekConsole;
+use Teufelaudio\Zed\SprykerDebug\Communication\Console\PropelDumpEntityConsole;
+use Teufelaudio\Zed\SprykerDebug\Communication\Console\PropelDumpMetadataConsole;
+use Teufelaudio\Zed\SprykerDebug\Communication\Console\RedisShellConsole;
+use Teufelaudio\Zed\SprykerDebug\Communication\Console\DebugRoutesConsole;
 use Spryker\Zed\Console\ConsoleDependencyProvider as SprykerConsoleDependencyProvider;
 use Spryker\Zed\Kernel\Container;
 use Spryker\Zed\Propel\Communication\Console\BuildModelConsole;

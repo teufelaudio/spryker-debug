@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\SprykerDebug\Tests\Support;
+namespace Teufelaudio\SprykerDebug\Tests\Support;
 
 use Psr\Container\ContainerInterface;
 

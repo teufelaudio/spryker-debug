@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\Zed\SprykerDebug\Communication\Model\Config;
+namespace Teufelaudio\Zed\SprykerDebug\Communication\Model\Config;
 
 use ArrayObject;
 

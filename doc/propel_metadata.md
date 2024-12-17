@@ -14,7 +14,7 @@ Add the `PropelDumpMetadataConsole` to your `ConsoleDependencyProvider`:
 namespace Pyz\Zed\Console;
 
 // ...
-use Inviqa\Zed\SprykerDebug\Communication\Console\PropelDumpMetadataConsole;
+use Teufelaudio\Zed\SprykerDebug\Communication\Console\PropelDumpMetadataConsole;
 
 class ConsoleDependencyProvider extends SprykerConsoleDependencyProvider
 {

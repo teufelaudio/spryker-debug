@@ -1,8 +1,8 @@
 <?php
 
-namespace Inviqa\SprykerDebug\Tests\Unit\Zed\SprykerDebug\Communication\Model\Propel;
+namespace Teufelaudio\SprykerDebug\Tests\Unit\Zed\SprykerDebug\Communication\Model\Propel;
 
-use Inviqa\Zed\SprykerDebug\Communication\Model\Propel\CriteriaParser;
+use Teufelaudio\Zed\SprykerDebug\Communication\Model\Propel\CriteriaParser;
 use PHPUnit\Framework\TestCase;
 
 class CriteriaParserTest extends TestCase
