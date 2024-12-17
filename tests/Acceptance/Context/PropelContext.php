@@ -8,7 +8,6 @@ use Orm\Zed\SprykerDebug\Persistence\PyzTestEntityQuery;
 
 class PropelContext implements Context
 {
-
     /**
      * @Given a test entity exists with name :name
      */

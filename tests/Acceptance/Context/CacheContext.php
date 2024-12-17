@@ -13,6 +13,6 @@ class CacheContext implements Context
     public function clearCache()
     {
         $filesystem = new Filesystem();
-        $filesystem->remove(__DIR__ . '/../../App/data/cache');
+        $filesystem->remove(__DIR__ . '/../../App/data/cache/codeBucket');
     }
 }
