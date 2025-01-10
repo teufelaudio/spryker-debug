@@ -1,10 +1,11 @@
 parameters:
     level: 6
-    checkMissingIterableValueType: false
-    checkGenericClassInNonGenericObjectType: false
     excludePaths:
         - %rootDir%/../../../src/Generated/*
         - %rootDir%/../../../src/Orm/*
         - %rootDir%/../../../src/Mcrm/SoapType*
     bootstrapFiles:
         - %rootDir%/../../../ci/bootstrap.php
+    ignoreErrors:
+        - identifier: missingType.iterableValue
+        - identifier: missingType.generics

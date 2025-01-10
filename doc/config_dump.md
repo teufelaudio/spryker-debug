@@ -20,7 +20,7 @@ Add the `DebugConfigConsole` to your `ConsoleDependencyProvider`:
 namespace Pyz\Zed\Console;
 
 // ...
-use Inviqa\Zed\SprykerDebug\Communication\Console\DebugConfigConsole;
+use Teufelaudio\Zed\SprykerDebug\Communication\Console\DebugConfigConsole;
 
 class ConsoleDependencyProvider extends SprykerConsoleDependencyProvider
 {

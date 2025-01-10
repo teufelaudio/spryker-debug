@@ -1,11 +1,11 @@
 <?php
 
-namespace Inviqa\Shared\SprykerDebug\Plugin\Application;
+namespace Teufelaudio\Shared\SprykerDebug\Plugin\Application;
 
-use Inviqa\Shared\SprykerDebug\Plugin\Guzzle\GuzzleStopwatchProfilerMiddleware;
 use Spryker\Service\Container\ContainerInterface;
 use Spryker\Shared\ApplicationExtension\Dependency\Plugin\ApplicationPluginInterface;
 use Spryker\Shared\ZedRequest\Client\HandlerStack\HandlerStackContainer;
+use Teufelaudio\Shared\SprykerDebug\Plugin\Guzzle\GuzzleStopwatchProfilerMiddleware;
 
 class GuzzleProfilerApplicationPlugin implements ApplicationPluginInterface
 {

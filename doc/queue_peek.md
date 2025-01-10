@@ -14,7 +14,7 @@ Add the `DebugQueuesPeekConsole` to your `ConsoleDependencyProvider`:
 namespace Pyz\Zed\Console;
 
 // ...
-use Inviqa\Zed\SprykerDebug\Communication\Console\DebugQueuesConsole;
+use Teufelaudio\Zed\SprykerDebug\Communication\Console\DebugQueuesConsole;
 
 class ConsoleDependencyProvider extends SprykerConsoleDependencyProvider
 {

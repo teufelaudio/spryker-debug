@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\Shared\SprykerDebug\Plugin\Application;
+namespace Teufelaudio\Shared\SprykerDebug\Plugin\Application;
 
 use Spryker\Service\Container\ContainerInterface;
 use Spryker\Shared\ApplicationExtension\Dependency\Plugin\ApplicationPluginInterface;

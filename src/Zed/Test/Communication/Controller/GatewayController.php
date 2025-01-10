@@ -1,6 +1,6 @@
 <?php
 
-namespace Inviqa\Zed\Test\Communication\Controller;
+namespace Teufelaudio\Zed\Test\Communication\Controller;
 
 use Generated\Shared\Transfer\TestTransfer;
 use Spryker\Shared\ZedRequest\Client\ResponseInterface;
